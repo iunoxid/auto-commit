@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: "*/5 * * * *"  # Every 5 minutes
+  - cron: "0 */4 * * *"  # Every 4 hours
 
 jobs:
   auto_commit:
