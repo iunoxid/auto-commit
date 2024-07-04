@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: "0 0 * * *"  # Setiap hari sekali pada pukul 00:00
+  - cron: "0 0 */2 * *"  # Setiap dua hari sekali pada pukul 00:00
 
 jobs:
   auto_commit:
